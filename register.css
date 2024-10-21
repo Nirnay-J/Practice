@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #79C6C4;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    background: url("./../images/milkflow.png") no-repeat;
+    background-position: bottom;
+    background-size: 100vw 25vh;
+}
+
+
+
+.heading {
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 60px;
+}
+
+
+.account {
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #8E9E5B;
+}
+
+
+.form-box {
+    border: 1px solid black;
+    width: 70vw;
+    height: 68vh;
+    margin: auto;
+    margin-top: 70px !important;
+    border-radius: 54px;
+    padding: 0 2.5vw;
+    background-color: #E6F3F2;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 20vw;
+    margin: auto;
+    border-radius: 27px;
+    height: 32px;
+    align-items: center;
+    padding:5px 8px;
+    margin-top: -25px;
+}
+
+.buttons h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 27px;
+}
+
+.buttons h3:hover {
+    background-color: #349C4B;
+}
+
+.field1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+}
+
+
+
+
+.fieldset1 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 50vw;
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 255, 255, 0);
+    width: 15vw;
+    margin-right: 20px;
+}
+
+.profile-box {
+    height: 20vh;
+    width: 14vw;
+    /* border: 1px solid black; */
+    align-items: end;
+}
+
+.profile-input {
+    width: 10vw;
+    margin: 0;
+}
+
+.fieldset2 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    height: 25vh;
+    border: none;
+}
+
+.fieldset3 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    height: 10vh;
+    border: none;
+}
+
+
+
+.address {
+    width: 48vw;
+}
+
+
+legend {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.78px;
+    letter-spacing: 9%;
+}
+
+
+label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.58px;
+    letter-spacing: 9%;
+    color: #000000;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.79px;
+    color: #00000057;
+}
+
+
+button {
+    background-color: #91E0C3;
+    height: 50px;
+    color: #875E5E;
+    font-size: 28px;
+    padding: 5px 25px;
+    display: block;
+    margin: 50px auto;
+    font-weight: 700;
+    border: none;
+    line-height: 40px;
+    border-radius: 13px;
+    box-shadow: 10px 6px 13px 0px #1D0303CC;
+}
